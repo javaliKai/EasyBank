@@ -53,9 +53,16 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - SASS 
 - Javascript
 
+### Workflow
+
++ Building the website from the mobile template
+  1. Working with the header section (logo, navbar) 
+
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+- setting the live sass compiler export path by changing the save path value in the extension's format settings.
+- using helper class to apply css style to many elements conveniently.
+- sass ampersand (&) is used to nest selector parent -> child whereas & refers to the parent selector.
 
 To see how you can add code snippets, see below:
 
@@ -88,7 +95,10 @@ Use this section to outline areas that you want to continue focusing on in futur
 - [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
 - [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+### Glossary 
+CTA Button: Click-to-Action button to prompt an immediate response.
+Hamburger Menu: A three dashes that act as a button to toggle a navigation bar.
+
 
 ## Author
 
