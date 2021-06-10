@@ -2,7 +2,7 @@
 
 ![Design preview for the Easybank landing page coding challenge](./design/desktop-preview.jpg)
 
-## Welcome! 👋
+## HI ! 👋
 
 Thanks for checking out this front-end coding challenge.
 
