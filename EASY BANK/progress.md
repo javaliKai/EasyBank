@@ -68,6 +68,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 - creating sass variable using ($) 
 
+- defining font-size using rem, convert px to rem divide by 16
+
 To see how you can add code snippets, see below:
 
 ```html
