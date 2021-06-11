@@ -61,8 +61,12 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ### What I learned
 
 - setting the live sass compiler export path by changing the save path value in the extension's format settings.
+
 - using helper class to apply css style to many elements conveniently.
+
 - sass ampersand (&) is used to nest selector (parent -> child) whereas & refers to the parent selector.
+
+- creating sass variable using ($) 
 
 To see how you can add code snippets, see below:
 
