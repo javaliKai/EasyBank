@@ -62,7 +62,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 - setting the live sass compiler export path by changing the save path value in the extension's format settings.
 - using helper class to apply css style to many elements conveniently.
-- sass ampersand (&) is used to nest selector parent -> child whereas & refers to the parent selector.
+- sass ampersand (&) is used to nest selector (parent -> child) whereas & refers to the parent selector.
 
 To see how you can add code snippets, see below:
 

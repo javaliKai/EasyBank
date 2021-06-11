@@ -1,3 +1,7 @@
+.header__menu > span {
+  display: block;
+}
+
 html {
   font-size: 100%;
   -webkit-box-sizing: border-box;
