@@ -30,8 +30,15 @@
   &__links {
 
     a {
-      font-size: $font-small
+      font-size: $font-small;
+      color: $grayishBlue;
     }
 
   }
+
+  &__cta {
+    font-size: $font-small;
+    color: $veryLightGray;
+  }
+
 }

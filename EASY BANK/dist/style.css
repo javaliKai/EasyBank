@@ -14,12 +14,13 @@ body {
   padding: 0;
   font-family: 'Public Sans', sans-serif;
   font-size: 1.125rem;
+  font-weight: 300;
+  color: #9698a6;
   line-height: 1.3;
 }
 
 a, a:hover, a:visited {
   text-decoration: none;
-  color: #9698a6;
 }
 
 .flex {
@@ -46,6 +47,17 @@ a, a:hover, a:visited {
           align-items: center;
 }
 
+button, .button {
+  padding: 1rem 1.875rem;
+  border-radius: 50px;
+  cursor: pointer;
+  border: none;
+  background: -webkit-gradient(linear, left top, right top, from(#31d35c), to(#2bb7da));
+  background: linear-gradient(to right, #31d35c, #2bb7da);
+  color: #fafafa;
+  font-weight: 400;
+}
+
 .header nav {
   padding: 24px;
 }
@@ -63,5 +75,11 @@ a, a:hover, a:visited {
 
 .header__links a {
   font-size: 0.875rem;
+  color: #9698a6;
+}
+
+.header__cta {
+  font-size: 0.875rem;
+  color: #fafafa;
 }
 /*# sourceMappingURL=style.css.map */
