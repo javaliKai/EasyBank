@@ -91,6 +91,8 @@ Building the website start with the mobile template
 
 - styling svg color using svg path selector and edit the 'fill' property.
 
+- there's some kind of error I encountered with live sass compiler while working with grid-template-area. I don't know why but it shows 'Autoprefix Error'. But, the web style is still working fine as it is.
+
 ### Continued development
 
 I might combine this project with the MERN stack to build a full content of web application.
