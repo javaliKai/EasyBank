@@ -7,15 +7,14 @@ This is a solution to the [Easybank landing page challenge on Frontend Mentor](h
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
+  - [Workflow](#workflow)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
+  - [Glossary](#glossary)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
@@ -28,23 +27,6 @@ Users should be able to:
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
 
-### Screenshot
-
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
-
-### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
 ## My process
 
 ### Built with
@@ -55,8 +37,13 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Workflow
 
-+ Building the website from the mobile template
-  1. Working with the header section (logo, navbar) 
+Building the website start with the mobile template
+
+  1. Working with the header section (logo, navbar).
+  2. Move to hero.
+  3. Feature with flexbox.
+  4. Articles with css grid.
+  5. finally, footer with css grid-template-area.
 
 ### What I learned
 
@@ -72,50 +59,55 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 - using sass map (key value pair) to work with mixins variable for breakpoints
 
-To see how you can add code snippets, see below:
+- researching other people method to do some stuff in developing web is a good practice, but be sure to not copy their code directly, instead grab the concept and build from scratch.
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
+- you can't transition from display: block to none. Another way to do is to modify the opacity property.
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+- using classList.contains and classList.remove to add and remove a class from html element thru js.
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+- implementing keyframes.
+
+- when applying position absolute, make sure the parent element is position relative.
+
+- when working with flexbox and image, flexbox has an auto sizing for the image content. So, in order to resize the image to 100% of its parent width, we should add the css rules to the image/content itself rather than the parent container.
+
+- using flex-wrap to make the flex items to be in the next row rather than in one row widely.
+
+- background-image vs image tag, if you want to adjust the cropping position of an image, you can use background-image. Add the background-image using inline style in the div.
+
+- implementing css grid to make the article section. work similar with flexbox, only you have to set up the template yourself.
+
+- setting up grid with auto-fit and minmax().
+
+- use gap property to add spacing to the grid items.
+
+- when applying a border-radius, make sure to add overflow hidden for the property to work.
+
+- implementing grid-template-area to create the fotoer section. This feature is very cool!
+
+- aligning grid items horizontally using 'justify-items', vertically using 'align-items'. Align grid items horizontally and individually by using 'justify-self'.
+
+- adding alternative caption into svg tag using title tag.
+
+- styling svg color using svg path selector and edit the 'fill' property.
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+I might combine this project with the MERN stack to build a full content of web application.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- Coder Coder, helped me to build this whole project.
+
 
 ### Glossary 
 CTA Button: Click-to-Action button to prompt an immediate response.
+
 Hamburger Menu: A three dashes that act as a button to toggle a navigation bar.
+
+Hero: a big wide banner image.
 
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-Walkthrough By: Coder Coder
+- Instagram: @tommyniclas
